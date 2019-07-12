@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="174dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#36000000"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="ID"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/tv_id_show"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#36000000"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="id"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#36000000"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="姓名"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/tv_id_show"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#36000000"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="name"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#36000000"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="描述"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/tv_description_show"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#36000000"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="description"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#36000000"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="时间"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/tv_time_show"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#36000000"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="time"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="108dp"
+        android:onClick="onBtnToastClick"
+        android:text="打印"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="108dp"
+        android:onClick="onBtnBackClick"
+        android:text="返回"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
